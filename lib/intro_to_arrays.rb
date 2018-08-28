@@ -6,4 +6,6 @@ def array_with_two_elements
   ["food", "drink"]
 end
 
-array_with_two_elements{1]
+def first_element(array)
+  array[1]
+end
